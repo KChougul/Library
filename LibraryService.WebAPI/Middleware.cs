@@ -5,7 +5,7 @@ namespace LibraryService.WebAPI
 {
     public class Middleware
     {
-        public int counter = 0; 
+        public int counter = 0;
         private readonly RequestDelegate nextRequest;
 
         public Middleware(RequestDelegate next)
